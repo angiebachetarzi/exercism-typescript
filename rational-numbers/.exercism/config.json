@@ -1,0 +1,24 @@
+{
+  "authors": [
+    "CRivasGomez"
+  ],
+  "contributors": [
+    "masters3d",
+    "SleeplessByte",
+    "angelikatyborska"
+  ],
+  "files": {
+    "solution": [
+      "rational-numbers.ts"
+    ],
+    "test": [
+      "rational-numbers.test.ts"
+    ],
+    "example": [
+      ".meta/proof.ci.ts"
+    ]
+  },
+  "blurb": "Implement rational numbers.",
+  "source": "Wikipedia",
+  "source_url": "https://en.wikipedia.org/wiki/Rational_number"
+}
