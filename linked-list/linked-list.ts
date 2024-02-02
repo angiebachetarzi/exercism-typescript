@@ -24,7 +24,6 @@ export class LinkedList<TElement> {
       }
       last.next = newNode;
     }
-    //console.log("push", this)
   }
 
   public pop(): TElement {
@@ -37,7 +36,6 @@ export class LinkedList<TElement> {
     const returnValue = last.current;
     if (!!beforeLast) beforeLast.next = null;
     else this.current = null //list had one elt
-    //console.log("pop", this, returnValue)
     return returnValue as TElement
   }
 
@@ -53,7 +51,6 @@ export class LinkedList<TElement> {
         // If there is no next element, set current to null
         this.current = null;
     }
-    //console.log("shift", this, firstElt)
     return firstElt;
   }
 
@@ -73,7 +70,6 @@ export class LinkedList<TElement> {
       this.next = oldElt
       this.current = element;
     }
-    //console.log("unshift", this)
   }
 
   public delete(element: TElement): void {
