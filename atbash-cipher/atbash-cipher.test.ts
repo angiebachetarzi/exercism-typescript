@@ -7,22 +7,22 @@ describe('AtbashCipher', () => {
       expect(cipherText).toEqual('bvh')
     })
 
-    xit('encode no', () => {
+    it('encode no', () => {
       const cipherText = encode('no')
       expect(cipherText).toEqual('ml')
     })
 
-    xit('encode OMG', () => {
+    it('encode OMG', () => {
       const cipherText = encode('OMG')
       expect(cipherText).toEqual('lnt')
     })
 
-    xit('encode spaces', () => {
+    it('encode spaces', () => {
       const cipherText = encode('O M G')
       expect(cipherText).toEqual('lnt')
     })
 
-    xit('encode mindblowingly', () => {
+    it('encode mindblowingly', () => {
       const cipherText = encode('mindblowingly')
       expect(cipherText).toEqual('nrmwy oldrm tob')
     })
