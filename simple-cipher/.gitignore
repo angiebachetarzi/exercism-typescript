@@ -1,0 +1,48 @@
+*.swp
+.DS_Store
+.idea
+npm-debug.log
+build
+babel-output
+lintreport.json
+debug.log
+
+# Binaries downloaded by binary download scripts
+bin/configlet
+bin/configlet.exe
+
+# Node modules
+/exercises/**/node_modules
+/common/node_modules
+/node_modules
+
+# Yarn files
+/exercises/**/.pnp.*
+/exercises/**/.yarn/*
+!/exercises/**/.yarn/patches
+!/exercises/**/.yarn/plugins
+!/exercises/**/.yarn/releases
+!/exercises/**/.yarn/sdks
+!/exercises/**/.yarn/versions
+
+/common/.pnp.*
+/common/.yarn/*
+!/common/.yarn/patches
+!/common/.yarn/plugins
+!/common/.yarn/releases
+!/common/.yarn/sdks
+!/common/.yarn/versions
+
+/.pnp.*
+/.yarn/*
+!/.yarn/patches
+!/.yarn/plugins
+!/.yarn/releases
+!/.yarn/sdks
+!/.yarn/versions
+
+# Maintainer specific generated files
+/exercises/**/yarn.lock
+/tmp_exercises
+/tmp
+exercise-package.json
